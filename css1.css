@@ -1,0 +1,175 @@
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header */
+header{
+    background-color:black;
+}
+.header{
+    display:flex;
+}
+.thuonghieu{
+    flex-wrap: wrap;
+    border-color: black;
+    width:30%;
+    float:left;
+    text-align: left;
+}
+.fa-search{
+    color:white;
+    background-color: orange;
+    float: inline-end;
+    width:70px;
+   
+}
+.timkiem{
+    width:40%;
+    padding:20px;
+    font-size:120%;
+    text-align: center;
+    margin:0;
+    display:flex;   
+}
+.SDT{
+    width:30%;
+    float:right;
+    text-align: center;
+}
+/* CSS NAV*/
+nav{
+    background-color:orange;
+    height:47px;
+    font-size:14px;
+}
+ul.menu{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display:flex;
+}
+ul.menu > li > a{
+    padding:15px 120px;
+    text-align: center;
+    text-decoration:none;
+    display:block;
+}
+ul.menu > li > a:hover{
+    background-color: green;
+}
+/* ngoaile*/
+.iphone11max{
+    height:1100px;
+    width:200px;
+    padding:0;
+    margin:0;;
+}
+/* section */
+h1.tieude{
+    background-color:orange;
+    font-size:20px;
+    color:white;
+    padding:5px;
+    width:100px;
+    margin-bottom: 0;
+}
+div.line{
+    width:100%;
+    height:5px;
+    background-color:orange;
+}
+div.products{
+    display: flex;
+}
+div.product{
+    width:20%;
+    border:1px solid gray;
+    margin:0;
+    padding:0;
+    font-size:14px;
+
+}
+div.product:hover{
+    display:inline;
+    opacity: 0.6;;
+}
+div.product > img{
+    width:100%;
+}
+div.thongtinsp{
+    padding:1px;
+}
+.product{
+    margin:0;
+    padding:5px;
+    text-align: center;
+    
+}
+.xemthem{
+    padding:0;
+    text-decoration:none;
+    margin:0;
+    border-color:black;
+    color:black;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    color:white;
+    padding:5px;
+    margin:0;
+    
+}
+.footer{
+    display:flex;
+    box-sizing: border-box;
+    margin:10px;
+    padding:0;
+
+}
+.LIENHE > ul{
+    list-style-type: none;
+    width:400px;
+    padding:0;
+    font-size:13px;
+    text-align: justify;
+}
+.CHINHSACH{
+    margin-left:250px;
+}
+.CHINHSACH > ul{
+    list-style-type: none;
+    width:300px;
+    padding:0;
+    font-size:13px;
+    text-align: justify;
+    float:middle;
+}
+.KETNOI{
+    margin-left:auto;
+}
+.KETNOI > ul{
+    list-style-type: none;
+    width:300px;
+    padding:0;
+    font-size:13px;
+    text-align: justify;
+    float:right;
+}
+html{
+    scroll-behavior: smooth;
+}
+#gototop{
+    color: white;
+    position: fixed;
+    background-color: #4267b2;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 10px;
+    line-height: 50px;
+    text-align: center;
+}
